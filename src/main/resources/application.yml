@@ -1,0 +1,39 @@
+server:
+  port: 8089
+
+nexmo:
+  client:
+    api:
+      key: 43d5ad6c
+      secret: 7mbawNm2f1jMkWtk
+      whatsapp: 14157386170
+      facebook:
+        from: 107083064136738
+        to: 3343214542380505
+      whatsapp-url: https://messages-sandbox.nexmo.com/v0.1/messages
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    show-sql: true
+spring.jpa.hibernate.ddl-auto: none
+
+smtp:
+  host:
+    server: mailo2.uhc.com
+
+dummy:
+  email:
+   address: no_reply@ect.com
+   name: NoReply-ECT
+
+
+
+
