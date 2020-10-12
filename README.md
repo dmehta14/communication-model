@@ -1,2 +1,2 @@
 # communication-model
-Sending Communications using Third Party API's
+Sending Communications(sms, whatsapp, messenger and emails) using Third Party API's
