@@ -1,0 +1,28 @@
+
+
+CREATE TABLE COMMUNICATION_TEMPLATE(TEMPLATE_ID int, CASE_STATUS Varchar(255), COMMUNICATION_TYPE Varchar(255), TEMPLATE_MESSAGE Varchar(20000));
+
+INSERT INTO COMMUNICATION_TEMPLATE values(1, 'Assigned to Clinician', 'whatsapp', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus. Your authorization ETA is approximately #ETA') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(2, 'Assigned to Clinician', 'email', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus. Your authorization ETA is approximately #ETA') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(3, 'Assigned to Clinician', 'sms', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus. Your authorization ETA is approximately #ETA') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(4, 'Assigned to Clinician', 'messenger', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus. Your authorization ETA is approximately #ETA') ;
+
+INSERT INTO COMMUNICATION_TEMPLATE values(5, 'Approved By Clinician', 'whatsapp', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(6, 'Approved By Clinician', 'email', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(7, 'Approved By Clinician', 'sms', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(8, 'Approved By Clinician', 'messenger', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+
+INSERT INTO COMMUNICATION_TEMPLATE values(9, 'Rejected', 'whatsapp', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(10, 'Rejected', 'email', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(11, 'Rejected', 'sms', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(12, 'Rejected', 'messenger', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+
+INSERT INTO COMMUNICATION_TEMPLATE values(13, 'Approved By MD', 'whatsapp', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.');
+INSERT INTO COMMUNICATION_TEMPLATE values(14, 'Approved By MD', 'email', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.');
+INSERT INTO COMMUNICATION_TEMPLATE values(15, 'Approved By MD', 'sms', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.');
+INSERT INTO COMMUNICATION_TEMPLATE values(16, 'Approved By MD', 'messenger', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.');
+
+INSERT INTO COMMUNICATION_TEMPLATE values(17, 'Assigned to MD', 'whatsapp', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(18, 'Assigned to MD', 'email', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(19, 'Assigned to MD', 'sms', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
+INSERT INTO COMMUNICATION_TEMPLATE values(20, 'Assigned to MD', 'messenger', 'Hi #CustName, Hope you are having a Good Day. Your application #AuthorizationNumber is #CaseStatus.') ;
