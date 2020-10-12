@@ -6,10 +6,10 @@ nexmo:
     api:
       key: 43d5ad6c
       secret: 7mbawNm2f1jMkWtk
-      whatsapp: 14157386170
+      whatsapp: 
       facebook:
-        from: 107083064136738
-        to: 3343214542380505
+        from: 
+        to: 
       whatsapp-url: https://messages-sandbox.nexmo.com/v0.1/messages
 
 spring:
@@ -27,7 +27,7 @@ spring.jpa.hibernate.ddl-auto: none
 
 smtp:
   host:
-    server: mailo2.uhc.com
+    server: 
 
 dummy:
   email:
